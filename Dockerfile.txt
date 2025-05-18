@@ -8,7 +8,7 @@ FROM alpine:latest
 
 #Install Nginx
 
-RUN ask add --no-cache nginx
+RUN apk add --no-cache nginx
 
 
 
